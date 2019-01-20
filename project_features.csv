@@ -1,0 +1,54 @@
+bcubeID,unique identifier
+year,season
+teamName,team name
+league,league stats are generated in
+level,level of competition
+levelID,numeric identifier for level
+orgName,"MLB organization ""teamName"" is affliated with"
+firstName,player's first name
+lastName,player's last name
+fullName,player's full name
+wins,wins
+loss,losses
+gm,games appeared
+gs,games started
+cg,complete games
+sho,shutouts
+gf,games finished
+sv,saves
+ip,innings pitched
+hits,hits surrendered
+hr,homeruns surrendered
+runs,total runs surrendered
+er,earned runs surrendered
+bb,walks surrendered
+ibb,intentional walks surrendered
+so,strikeouts accumulated
+wp,wild pitches accumulated
+bk,balks accumulated
+era,earned run average --> (er / ip) * 9
+hits9,hits per 9 innings --> (hits / ip) * 9
+hr9,homeruns per 9 innings --> (hr / ip) * 9
+bb9,walks per 9 innings --> (bb / ip) * 9
+so9,strikeouts per 9 innings --> (so / ip) * 9
+so_bb,strikeout to walk ratio --> (so / bb)
+whip,walks plus hits per inning pitched --> (walks + hits) / ip
+gs_pct,percentage of games started -- > (gs / gm)
+ip_gm,innings pitched per game --> (ip / gm)
+rel_app,appearances in relief --> (gm - gs)
+hgt_inches,height (inches)
+wgt,weight (pounds)
+bats,side of plate player hits from
+throws,hand player throws with
+dob,date of birth
+regionID,region player is from
+milb_debut,year of professional baseball debut (MILB / MLB)
+mlb_binary,1 if appeared in MLB / 0 otherwise
+milb_exp,year of professional experience --> (year - milb_debut + 1)
+ba100_post,1 if Baseball America top 100 prospect / 0 otherwise
+org_top10_post,1 if top 10 prosepct in respective organization / 0 otherwise
+sign_bonus_mill,signing bonus in millions of dollars
+sign_bonus_mill_cpi_adj,signing bonus in millions of dollars adjusted for inflation
+college,college played at
+bloodlines,relatives of player that played professional baseball
+draft_round,draft round --> set to 9999 if not drafted or signed internationally
